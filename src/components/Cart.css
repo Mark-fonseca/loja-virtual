@@ -1,0 +1,140 @@
+.checkout-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .product-list {
+    flex: 1;
+  }
+  
+  .product-list h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .product-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .product-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .product-list li img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .product-list li div {
+    flex: 1;
+  }
+  
+  .product-list li h3 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .product-list li p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .cart-section {
+    flex: 1;
+  }
+  
+  .cart-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .cart-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .cart-item-info {
+    flex: 1;
+  }
+  
+  .cart-item h3 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .cart-item p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .cart-item button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .cart-item button:hover {
+    background-color: #cc0000;
+  }
+  
+  .cart-total {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .cart-total p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .payment-options {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .payment-options h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .payment-options ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .payment-options li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .payment-options li img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    margin-right: 10px;
+  } 
+  
